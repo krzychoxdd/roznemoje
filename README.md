@@ -57,14 +57,13 @@ keybindings.json
     }
 ]
 ```
-
-extensions (z cmd.exe code --list-extensions --show-versions > extensions.txt): 
-
+ 
 Instalacja pluginow 
+unix dump: z cmd.exe code --list-extensions --show-versions > extensions.txt
+unix instalacja: code --install-extension $(cat extensions.txt)
 
-unix: code --install-extension $(cat extensions.txt)
-
-windwos: code --list-extensions --show-versions | Out-File extensions.txt
+windwos dump: code --list-extensions --show-versions | Out-File extensions.txt
+windows instalacja: Get-Content extensions.txt | % { code --install-extension $_ } 
 ```
 bmewburn.vscode-intelephense-client@1.16.5
 ericgomez.phpstorm-theme@1.0.21
