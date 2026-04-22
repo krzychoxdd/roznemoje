@@ -57,3 +57,14 @@ keybindings.json
     }
 ]
 ```
+
+extensions (z cmd.exe code --list-extensions --show-versions > extensions.txt): 
+```
+bmewburn.vscode-intelephense-client@1.16.5
+ericgomez.phpstorm-theme@1.0.21
+github.copilot-chat@0.44.2
+grogdunn.netbeans-keybindings@0.0.9
+laravel.vscode-laravel@1.7.0
+leodevbro.blockman@1.7.8
+onecentlin.laravel-blade@1.38.0
+```
