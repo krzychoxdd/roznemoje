@@ -8,3 +8,14 @@
     "workbench.colorTheme": "PhpStorm Dark",
     "editor.minimap.enabled": false
 }
+
+
+keybindings.json
+
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift shift",
+        "command": "workbench.action.quickOpen"
+    }
+]
